@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Demo-FransTrein
+  host: Demo-FransTrein
+  disk_quota: 1024M
+  services:
+  - Demo-FransTrein-personality_insights
